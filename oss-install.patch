@@ -1,0 +1,9 @@
+--- oss-v4.2-build2008-src-gpl/setup/Linux/make.local.orig	2012-05-22 00:23:41.000000000 +0200
++++ oss-v4.2-build2008-src-gpl/setup/Linux/make.local	2014-02-18 17:16:36.737145122 +0100
+@@ -16,6 +16,3 @@
+ 		sh setup/Linux/mkdeb.sh
+ 
+ install:	copy
+-	cd ${OSSLIBDIR}/build && sh install.sh
+-	sync
+-	soundoff && sync && soundon && echo "OSS has started OK"
