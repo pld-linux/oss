@@ -80,7 +80,7 @@ Pliki nagłówkowe API OSS v4.
 
 %prep
 %setup -q -n %{name}-v%{ver}-build%{subver}-src-gpl
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build
